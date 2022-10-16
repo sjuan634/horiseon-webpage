@@ -4,12 +4,14 @@
     margin: 0;
 }
 
+/* Give specific bg color, font-family and font color */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
 
+/* Give header a different font-family and bg color. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,6 +19,7 @@ header {
     color: #ffffff;
 }
 
+/* Makes the h1 and ul share line. */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -26,6 +29,7 @@ span {
     color: #d9dcd6;
 }
 
+/* Positions navigation bar to the right of the h1 element */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,11 +37,13 @@ nav {
     font-size: 20px;
 }
 
+/* Lists items for navigation bar in one line */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes the color for the navigation bars links and removes the underline from the links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -51,12 +57,14 @@ a {
     background-position: center;
 }
 
+/* Create a container for the main content */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Style the three main topics */
 .content-article {
     margin-bottom: 32px;
     padding: 50px;
@@ -85,10 +93,10 @@ p {
     max-height: 200px
 }
 
+/* Style the additional topics */
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
@@ -110,7 +118,7 @@ h3 {
     max-height: 200px;
 }
 
-
+/* Style the footer. Give it a different font-family  */
 footer {
     padding: 30px;
     clear: both;
