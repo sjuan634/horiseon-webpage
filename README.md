@@ -10,6 +10,7 @@ For this project I have built a page using semantic HTML elements and CSS.The us
 
 ## Usage
 
+https://sjuan634.github.io/horiseon-webpage/
 ![Horiseon hompage](assets/images/screenshot-homepage.png)
 
 ## Credits
